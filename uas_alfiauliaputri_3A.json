@@ -1,0 +1,96 @@
+{
+    "databases": [
+        "PerpusIsan",
+        "Universitas",
+        "admin",
+        "alfilibrary",
+        "config",
+        "local",
+        "rumahsakit",
+        "solarium"
+    ],
+    "collections": {
+        "solarium": {
+            "pelanggan": [
+                {
+                    "nama": "joni",
+                    "customer_id": 344,
+                    "email": "joni234@gmail.com",
+                    "phone": 89788
+                },
+                {
+                    "nama": "fofo",
+                    "customer_id": 455,
+                    "email": "fofo34@gmail.com",
+                    "phone": 897699
+                },
+                {
+                    "nama": "gori",
+                    "customer_id": 8900,
+                    "email": "gori456@gmail.com",
+                    "phone": 89765444
+                }
+            ],
+            "layanan": [
+                {
+                    "nama": "jono",
+                    "service_id": 897,
+                    "price": 67779,
+                    "duration_minutes": 40
+                },
+                {
+                    "nama": "vori",
+                    "service_id": 654,
+                    "price": 74444,
+                    "duration_minutes": 50
+                },
+                {
+                    "nama": "tegar",
+                    "service_id": 433,
+                    "price": 44444,
+                    "duration_minutes": 30
+                }
+            ],
+            "perangkat": [
+                {
+                    "nama": "uv light machine model X",
+                    "equipment_id": "E001",
+                    "location": "room 2",
+                    "status": "operasional"
+                },
+                {
+                    "nama": "uv light machine model T",
+                    "equipment_id": "C002",
+                    "location": "room 3",
+                    "status": "operasional"
+                },
+                {
+                    "nama": "uv light machine model U",
+                    "equipment_id": "D004",
+                    "location": "room 6",
+                    "status": "operasional"
+                }
+            ],
+            "karyawan": [
+                {
+                    "nama": "jojo",
+                    "staf_id": 67777,
+                    "phone": 8976555,
+                    "role": "teraphist"
+                },
+                {
+                    "nama": "jiji",
+                    "staf_id": 89999,
+                    "phone": 8798776,
+                    "role": "teraphist"
+                },
+                {
+                    "nama": "vivi",
+                    "staf_id": 7888,
+                    "phone": 89777,
+                    "role": "teraphist"
+                }
+            ]
+        }
+    }
+}
